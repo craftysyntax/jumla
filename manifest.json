@@ -1,0 +1,11 @@
+{
+    "name": "Jumla",
+    "description": "Joomla 4 Admin Styler",
+    "version": "1.0",
+    "manifest_version": 3,
+    "content_scripts": [{
+        "css": ["styles.css"],
+        "js": ["content.js"],
+        "matches": ["https://*/administrator*"]
+      }]
+}
